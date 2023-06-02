@@ -1,0 +1,34 @@
+<p>
+    This extension allows you to find DNS vulnerabilities in web applications! It requires <a href="https://portswigger.net/burp/releases/professional-community-2022-12-4">Burp Suite v2022.12.4</a> or later.<br>
+    An in-depth guide for the DNS Analyzer can be found <a href="https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/">here</a>.
+</p>
+<h4>Usage</h4>
+The basic usage boils down to the following steps:
+<ol>
+    <li>Click "Copy to Clipboard" to generate and copy a Burp Collaborator domain</li>
+    <li>Get something to resolve the generated domain via DNS. For example, by using it:</li>
+    <ul>
+        <li>as an e-mail domain (e.g., test@[collaborator domain])</li>
+        <ul>
+            <li>Use it at registrations</li>
+            <li>Use it at password resets</li>
+            <li>Use it for news-letters</li>
+            <li>...</li>
+        </ul>
+        <li>via SSRF</li>
+        <li>anywhere, where the collaborator domain gets resolved via DNS</li>
+    </ul>
+    <li>Analyze the DNS name resolution by selecting DNS interactions in the table</li>
+    <li>...</li>
+    <li>Profit</li>
+</ol>
+<h4>Further Info</h4>
+<p>
+    As already mentioned, you can find a full DNS Analyzer guide <a href="https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/">here</a>.<br>
+    Also, you can find further information about DNS analysis and DNS vulnerabilities in the following blog posts:
+<ul>
+    <li><a href="https://sec-consult.com/blog/detail/forgot-password-taking-over-user-accounts-kaminsky-style/">First blog post</a> showing the basics of DNS analysis in web applications</li>
+    <li><a href="https://sec-consult.com/blog/detail/melting-the-dns-iceberg-taking-over-your-infrastructure-kaminsky-style/">Second blog post</a> showing further DNS analysis methods and exploitation</li>
+</ul>
+Moreover, the Collaborator server has its limits. For in-depth DNS analysis you can use the <a href="https://github.com/The-Login/DNS-Analysis-Server">DNS Analysis Server</a>.
+</p>
