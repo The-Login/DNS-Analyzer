@@ -1,9 +1,20 @@
 # DNS Analyzer
 A Burp Suite extension for discovering DNS vulnerabilities in web applications!  
-*An in-depth guide for the DNS Analyzer can be found [here](https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/).*
-## Installation
-The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
-```Extensions > BApp Store > DNS Analyzer```
+*An in-depth guide for the DNS Analyzer can **SOON** be found [here](https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/).*
+## Install (Coming soon!)
+
+*The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
+```Extensions > BApp Store > DNS Analyzer```*
+
+## Manual Compile & Install
+You can build this project via the ```fatJar``` gradle task:  
+- Linux: ```./gradlew fatJar```  
+- Windows: ```gradlew.bat fatJar```  
+
+The compiled JAR can be found under ```build/libs/```.  
+To load the extension via Burp Suite Professional, navigate to ```Extensions > Installed > Add``` and select
+```build/libs/DNSAnalyzer-all-1.0.jar``` as .jar file.
+
 ## Howto
 The basic usage boils down to the following steps:  
 1. Click "Copy to Clipboard" to generate and copy a Burp Collaborator domain
@@ -27,7 +38,7 @@ Should you be looking for DNS vulnerabilities in bug bounty domains?
 
 Essentially, **don't flood bug bounty programs with DNS vulnerability reports without doing proper research first!**
 ## Further Info
-As already mentioned, you can find a full DNS Analyzer guide [here](https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/).  
+As already mentioned, you can **SOON** find a full DNS Analyzer guide [here](https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/).  
 Also, you can find further information about DNS analysis and DNS vulnerabilities in the following blog posts:  
 - [First blog post](https://sec-consult.com/blog/detail/forgot-password-taking-over-user-accounts-kaminsky-style/) showing the basics of DNS analysis in web applications
 - [Second blog post](https://sec-consult.com/blog/detail/melting-the-dns-iceberg-taking-over-your-infrastructure-kaminsky-style/) showing further DNS analysis methods and exploitation  
