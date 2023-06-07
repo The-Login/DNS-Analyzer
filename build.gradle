@@ -26,10 +26,14 @@ task fatJar(type: Jar) {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    implementation 'net.portswigger.burp.extensions:montoya-api:2023.5'
     implementation 'org.jfree:jfreechart:1.5.4'
     implementation 'org.jfree:jcommon:1.0.24'
     implementation 'com.github.seancfoley:ipaddress:5.4.0'
 }
+
+project.sourceCompatibility = '1.17'
+project.targetCompatibility = '1.17'
 
 test {
     useJUnitPlatform()

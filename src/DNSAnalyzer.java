@@ -1,6 +1,7 @@
 import burp.api.montoya.BurpExtension;
 import burp.api.montoya.MontoyaApi;
 import burp.api.montoya.collaborator.*;
+import burp.api.montoya.extension.ExtensionUnloadingHandler;
 
 import javax.swing.*;
 import javax.swing.event.*;
@@ -8,7 +9,6 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import burp.api.montoya.extension.ExtensionUnloadingHandler;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
