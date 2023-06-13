@@ -337,7 +337,7 @@ public class DNSAnalysisUtils {
                     <h1>DNS Analyzer</h1>
                     <i>A Burp extension for discovering DNS vulnerabilities in web applications!</i>
                     <h2>Howto</h2>
-                    You can find an in-depth guide <a href="https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/">here</a>, which boils down to the following steps:
+                    You can find an in-depth guide <a href="https://r.sec-consult.com/dnsburp">here</a>, which boils down to the following steps:
                     <ol>
                     <li>Click "Copy to Clipboard" to generate and copy a Burp Collaborator domain</li>
                     <li>Get something to resolve the generated domain via DNS. For example, by using it:</li>
@@ -399,7 +399,7 @@ public class DNSAnalysisUtils {
                     </ol>
                     Essentially, <b>don't flood bug bounty programs with DNS vulnerability reports without doing proper research first!</b>
                     <h2>Further Info</h2>
-                    As already mentioned, you can find a full DNS Analyzer guide <a href="https://sec-consult.com/blog/detail/dns-analyzer-finding-dns-vulnerabilities-with-burp-suite/">here</a>.<br>
+                    As already mentioned, you can find a full DNS Analyzer guide <a href="https://r.sec-consult.com/dnsburp">here</a>.<br>
                     Also, you can find further information about DNS analysis and DNS vulnerabilities in the following blog posts:
                     <ul>
                     <li><a href="https://sec-consult.com/blog/detail/forgot-password-taking-over-user-accounts-kaminsky-style/">First blog post</a> showing the basics of DNS analysis in web applications</li>
