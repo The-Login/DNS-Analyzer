@@ -1,19 +1,21 @@
 # DNS Analyzer
 A Burp Suite extension for discovering DNS vulnerabilities in web applications!  
-*An in-depth guide for the DNS Analyzer can **SOON** be found [here](https://r.sec-consult.com/dnsburp).*
+*An in-depth guide for the DNS Analyzer can be found [here](https://r.sec-consult.com/dnsburp).*
 ## Install (Coming soon!)
 
-*The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
-```Extensions > BApp Store > DNS Analyzer```*
+~~*The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
+```Extensions > BApp Store > DNS Analyzer```*~~
 
 ## Manual Compile & Install
-You can build this project via the ```fatJar``` gradle task:  
+You can download the precompiled JAR from [releases](https://github.com/The-Login/DNS-Analyzer/releases/tag/v1.0).  
+**Or**, you can build this project via the ```fatJar``` gradle task:  
 - Linux: ```./gradlew fatJar```  
 - Windows: ```gradlew.bat fatJar```  
 
-The compiled JAR can be found under ```build/libs/```.  
+The compiled JAR can then be found under ```build/libs/```.  
+
 To load the extension via Burp Suite Professional, navigate to ```Extensions > Installed > Add``` and select
-```build/libs/DNSAnalyzer-all-1.0.jar``` as .jar file.
+```DNSAnalyzer-all-1.0.jar``` as .jar file.
 
 ## Howto
 The basic usage boils down to the following steps:  
@@ -30,6 +32,8 @@ The basic usage boils down to the following steps:
 4. ...
 5. Profit
 
+Advanced usage and more can be found [here](https://r.sec-consult.com/dnsburp).
+
 ## Bug Bounty Tips
 Should you be looking for DNS vulnerabilities in bug bounty domains?  
 **YES!** However, only report a DNS vulnerability if:  
@@ -38,7 +42,7 @@ Should you be looking for DNS vulnerabilities in bug bounty domains?
 
 Essentially, **don't flood bug bounty programs with DNS vulnerability reports without doing proper research first!**
 ## Further Info
-As already mentioned, you can **SOON** find a full DNS Analyzer guide [here](https://r.sec-consult.com/dnsburp).  
+As already mentioned, you can find a full DNS Analyzer guide [here](https://r.sec-consult.com/dnsburp).  
 Also, you can find further information about DNS analysis and DNS vulnerabilities in the following blog posts:  
 - [First blog post](https://sec-consult.com/blog/detail/forgot-password-taking-over-user-accounts-kaminsky-style/) showing the basics of DNS analysis in web applications
 - [Second blog post](https://sec-consult.com/blog/detail/melting-the-dns-iceberg-taking-over-your-infrastructure-kaminsky-style/) showing further DNS analysis methods and exploitation  
