@@ -6,7 +6,7 @@ A Burp Suite extension for discovering DNS vulnerabilities in web applications!
 ~~*The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
 ```Extensions > BApp Store > DNS Analyzer```*~~
 
-## Manual Compile & Install
+## Compile & Install
 You can download the precompiled JAR from [releases](https://github.com/The-Login/DNS-Analyzer/releases/tag/v1.0).  
 **Or**, you can build this project via the ```fatJar``` gradle task:  
 - Linux: ```./gradlew fatJar```  
