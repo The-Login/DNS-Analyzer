@@ -1,6 +1,9 @@
 # DNS Analyzer
 A Burp Suite extension for discovering DNS vulnerabilities in web applications!  
-*An in-depth guide for the DNS Analyzer can be found [here](https://r.sec-consult.com/dnsburp).*
+*An in-depth guide for the DNS Analyzer can be found [here](https://r.sec-consult.com/dnsburp).*  
+
+![DNS Analyzer Overview_small](https://github.com/The-Login/DNS-Analyzer/assets/84237895/91fc4496-f55f-483a-8b9a-7738ae45f8c7)
+
 ## Install (Coming soon!)
 
 ~~*The DNS Analyzer extension can be installed directly from the BApp Store in Burp Suite!  
